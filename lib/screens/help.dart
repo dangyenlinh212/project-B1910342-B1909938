@@ -14,7 +14,7 @@ class Help extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.green,
         leading: ZoomMenu(),
         title: Text(
           "Help",
@@ -22,7 +22,7 @@ class Help extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.green,
         child: Icon(Icons.send),
         elevation: 0,
       ),

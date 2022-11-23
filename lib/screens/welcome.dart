@@ -13,7 +13,7 @@ class Welcome extends StatelessWidget {
         body: Stack(
           children: [
             Container(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 image: DecorationImage(
                   image: AssetImage("assets/images/ebookui.jpg"),
                   fit: BoxFit.cover,
@@ -28,10 +28,10 @@ class Welcome extends StatelessWidget {
               body: Center(
                 child: Column(
                   children: [
-                    Spacer(flex: 6),
+                    const Spacer(flex: 6),
                     Container(
                       width: MediaQuery.of(context).size.width * 0.8,
-                      child: Text(
+                      child: const Text(
                         "Books by Lind & AngKV.",
                         style: TextStyle(
                           fontSize: 50,
@@ -41,11 +41,11 @@ class Welcome extends StatelessWidget {
                         textAlign: TextAlign.center,
                       ),
                     ),
-                    Spacer(flex: 6),
-                    RoundedButton(
+                    const Spacer(flex: 6),
+                    const RoundedButton(
                       buttonName: 'Start Reading',
                     ),
-                    Spacer()
+                    const Spacer()
                   ],
                 ),
               ),

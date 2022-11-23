@@ -17,7 +17,7 @@ List<Book> bookshelf = [
     name: "Beautiful World, Where Are You",
     publisher: "Sally Rooney",
     image: "assets/images/book3.jpg",
-    like: false,
+    like: true,
   ),
   Book(
     name: "Luna Storm",

@@ -28,7 +28,7 @@ class MenuPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        backgroundColor: Colors.indigo,
+        backgroundColor: Color.fromARGB(255, 255, 221, 0),
         body: SafeArea(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.start,

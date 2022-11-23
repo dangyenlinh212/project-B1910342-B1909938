@@ -12,9 +12,9 @@ class BookPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: ZoomMenu(),
-        backgroundColor: Colors.blue,
-        title: Text("Books"),
+        leading: const ZoomMenu(),
+        backgroundColor: Colors.deepOrange,
+        title: const Text("Books"),
         elevation: 0,
       ),
       body: Column(

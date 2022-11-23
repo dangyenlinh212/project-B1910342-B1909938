@@ -28,7 +28,7 @@ class _InfoState extends State<Info> {
                         width: double.infinity,
                         height: 500,
                         //MediaQuery.of(context).size.height * 0.55,
-                        color: Colors.indigo,
+                        color: Color.fromARGB(255, 204, 3, 244),
                         child: Column(
                           children: [
                             Center(
@@ -144,7 +144,7 @@ class _InfoState extends State<Info> {
                         width: MediaQuery.of(context).size.height * 0.075,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(16),
-                          color: Colors.indigo,
+                          color: Color.fromARGB(255, 204, 3, 244),
                         ),
                         child: GestureDetector(
                           onTap: (() {
@@ -155,8 +155,9 @@ class _InfoState extends State<Info> {
                           child: Icon(
                             widget.books.like ? Icons.favorite : Icons.favorite,
                             size: 28,
-                            color:
-                                widget.books.like ? Colors.pink : Colors.white,
+                            color: widget.books.like
+                                ? Colors.redAccent
+                                : Colors.white,
                           ),
                         ),
                       ),
@@ -165,11 +166,11 @@ class _InfoState extends State<Info> {
                         width: MediaQuery.of(context).size.width * 0.75,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(14),
-                          color: Colors.indigo,
+                          color: Color.fromARGB(255, 204, 3, 244),
                         ),
                         child: Center(
                           child: Text(
-                            "Get Book",
+                            "Reading now",
                             style: TextStyle(
                                 fontSize: 16,
                                 color: Colors.white,

@@ -70,10 +70,11 @@ class _BookerState extends State<Booker> {
                 alignment: Alignment.topLeft,
                 child: Text(
                   widget.books.name,
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                  style: const TextStyle(
+                      fontSize: 16, fontWeight: FontWeight.bold),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 4,
               ),
               Align(

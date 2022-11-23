@@ -14,7 +14,7 @@ import 'screens/write.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Welcome(),
       /*onGenerateRoute: router.generateRoute,

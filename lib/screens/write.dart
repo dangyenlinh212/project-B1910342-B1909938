@@ -12,13 +12,13 @@ class Write extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.red,
         leading: ZoomMenu(),
         title: Text("Publish"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (() {}),
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.red,
         child: Icon(Icons.save),
         elevation: 0,
       ),

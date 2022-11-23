@@ -10,6 +10,6 @@ class ZoomMenu extends StatelessWidget {
         onPressed: () {
           ZoomDrawer.of(context)!.toggle();
         },
-        icon: Icon(Icons.menu));
+        icon: const Icon(Icons.menu));
   }
 }

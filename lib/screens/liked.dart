@@ -16,8 +16,8 @@ class Liked extends StatelessWidget {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.pink,
-        leading: ZoomMenu(),
-        title: Text("Liked"),
+        leading: const ZoomMenu(),
+        title: const Text("Liked"),
       ),
       body: Column(
         children: [

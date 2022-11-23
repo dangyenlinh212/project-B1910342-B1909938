@@ -12,8 +12,8 @@ class RateUs extends StatelessWidget {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.green,
-        leading: ZoomMenu(),
-        title: Text("Rate Us"),
+        leading: const ZoomMenu(),
+        title: const Text("Rate Us"),
       ),
     );
   }
